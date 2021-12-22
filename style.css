@@ -1,0 +1,18 @@
+main {
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 20%;
+  max-height: 20%;
+  margin: auto;
+}
+
+#pfp {
+  display: block;
+  width: 20%;
+  height: 20%;
+  margin: auto;
+  border-radius: 50%;
+}
