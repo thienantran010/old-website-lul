@@ -1,18 +1,48 @@
-main {
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 28vh;
+  background-image: url(https://user-images.githubusercontent.com/96504081/147128375-d96408aa-857e-4a33-a30f-012256bf6795.jpg);
+  background-size: contain;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+#baller-georgie {
+  max-width: 70vw;
+  max-height: 70vh;
+  position: relative;
+  left: 36%;
+  bottom: 50%;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-style: italic;
+  font-size: 4vw;
   text-align: center;
 }
 
-img {
-  display: block;
-  max-width: 20%;
-  max-height: 20%;
-  margin: auto;
+p {
+  font-family: 'Cinzel', serif;
+  font-style: italic;
+  font-size: 2vw;
+  text-align: center;
 }
 
-#pfp {
-  display: block;
-  width: 20%;
-  height: 20%;
-  margin: auto;
-  border-radius: 50%;
+.name-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 5vw;
+  width: 10vw;
+  height: 10vw;
+}
+
+.name1 {
+
 }
